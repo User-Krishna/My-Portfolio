@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Portfolia</title>
+    <!-- font taken from boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <img src="images/logo.png" alt="">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <img src="images/moon.png" id="icon">
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            
+            <h3>Hello,It's Me</h3>
+            <h1>Krishna Das</h1>
+            <h3>And I'am a <span class="multiple-text"></span></h3>
+            <p> I possess a unique blend of
+                technical and creative skills as a computer science
+                engineering student with a passion of Web Designer to put
+                my efforts into the growth of the organization.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/krishna-das-4b811922b/"> <i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/User-Krishna"> <i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/daskrrishdas/"> <i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://t.me/KrishnaDas12"><i class='bx bxl-telegram'></i> </a>
+                <a href="https://www.facebook.com/timibinamaaadhuro.aadhuro/"> <i class='bx bxl-facebook-circle'></i></a>
+            </div>
+            <a href="Resume.pdf" download class="btn">Download CV</a>
+            <!---time set-->
+            <div class="containers">
+                <div class="clock">
+                    <span id="hrs">00</span>
+                    <span>:</span>
+                    <span id="min">00</span>
+                    <span>:</span>
+                    <span id="sec">00</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="contents">
+                <img src="images/krishna.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--about section design-->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span> </h1>
+                    <h2 class="col">"Hi my name is Krishna Das. I am Student Of Guru Nanak Institute Of Technology. I am
+                        a responsible<br> person,able to work under pressure,
+                        and able to work with team or individual."
+                        You can expect me <br>to be outgoing and accommodating,and work independently,efficiently And
+                        well-structured.<br> <span class="cool"></span>
+
+                    </h2>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android App</li>
+                            <li><span>Language Known</span><br>C, Java, JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>UI/UX Design at GNIT</li>
+                            <li><span>2020-2022</span><br>Team Leader In Brumous at GNI</li>
+                            <li><span>2018-2019</span><br>Web Developer at Softech</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech in Guru Nanak Institute Of Technology-Hyderabad(India)
+                            </li>
+                            <li><span>2018-2020</span><br>Intermediate in GreenLand International
+                                College-Biratnagar(Nepal)</li>
+                            <li><span>2006-2018</span><br>Schooling in Premier Secondary School-Rajbiraj(Nepal)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>We offer comprehensive web development services, including frontend and backend development, database
+                    integration, e-commerce solutions, responsive design, security enhancement, and ongoing maintenance
+                    and support. Our expertise ensures tailored, user-friendly websites optimized for performance and
+                    scalability. </p>
+                <a href="https://www.geeksforgeeks.org/web-development/" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Designer</h3>
+                <p>Our graphic design services deliver captivating visual solutions tailored to your brand's identity,
+                    encompassing logo design, branding, print materials, and digital assets. With meticulous attention
+                    to detail and creative flair, we bring your vision to life with stunning designs that resonate with
+                    your audience. </p>
+                <a href="https://www.figma.com/file/2EQA5ox7G3RKoQ7MTK4Ngf/Untitled?type=design&node-id=0%3A1&mode=design&t=U3OGrqSGghbO6kDw-1" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-block'></i>
+                <h3>Software Developer</h3>
+                <p>Our software development services offer tailored solutions to meet your unique needs, including
+                    custom software applications, mobile app development With expertise in cutting-edge technologies and
+                    agile methodologies, we deliver scalable software solutions that drive innovation business
+                    processes. </p>
+                <a href="https://www.coursera.org/articles/how-to-become-a-software-developer" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--protofolio section-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/tic.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Tic-Tac-Toe</h4>
+                    <p>Tic-Tac-Toe is a simple and fun game for 2 players, X and O. It is played on a 3x3 grid. Each
+                        player's goal is to make 3 in a row. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/e-commerce.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Website</h4>
+                    <p>In my e-commerce website project, I designed and developed a user-friendly platform with secure
+                        payment processing, optimizing performance and integrating key features. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/toursim.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Tourism Website</h4>
+                    <p>For my tourism website project, I crafted an immersive user experience with seamless navigation
+                        and integration of features like destination guides and booking systems. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/sms.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Student Management System</h4>
+                    <p>In developing a student management system using Java NetBeans, I engineered a comprehensive
+                        platform integrating features like student profiles, course enrollment, and grade tracking. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/placement.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Placement Management System</h4>
+                    <p>In constructing a placement management system using Java NetBeans, I architected a robust
+                        platform facilitating tasks such as job postings and interview scheduling.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/result.jpg" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>School Management System</h4>
+                    <p>In creating a school management system using Java NetBeans, I designed a comprehensive platform
+                        incorporating features such as student enrollment, attendance tracking, and grade management.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class='bx bxs-paper-plane'></i>dask84779@gmail.com</p>
+                    <p><i class='bx bxs-phone-call'></i>+91-7842634806</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/krishna-das-4b811922b/"> <i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://github.com/User-Krishna"> <i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/daskrrishdas//"> <i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://t.me/KrishnaDas12"><i class='bx bxl-telegram'></i> </a>
+                        <a href="https://www.facebook.com/timibinamaaadhuro.aadhuro/"> <i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form method="post" action="" name="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Number" placeholder="Your Number" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------------Footer-->
+    <div class="footer">
+        <div class="conatiner">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App For Aneroid And IOS Mobile Phones.</p>
+                   
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Website Accessible To The Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3> Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3> Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright <span>KrishnaDas</span>.Com</p>
+        </div>
+    </div>
+
+    <!--javaScript-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---typped js-->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
